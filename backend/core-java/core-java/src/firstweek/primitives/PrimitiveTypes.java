@@ -3,6 +3,30 @@ package firstweek.primitives;
 public class PrimitiveTypes {
     public static void main(String[] args) {
 
+
+
+/*----------------------------------------------------------------------------------------------------------------------
+        Tür (type): Bir değişken için bellekte kaç byte yer ayrılacağını ve içerisindeki değerin hangi formatta
+        tutulacağını belirten kavrama denir.
+
+        Temel Türler (built-in type, predefined type)
+
+        Tür ismi				Uzunluğu (byte)
+        short						2
+                *int							4
+        long						8
+        byte						1
+        float						4
+                *double						8
+        boolean                     1
+        char						2
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
 //        // Variables
 //        int anInt = 18;
 //        System.out.println("Int : " + anInt);
