@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+
+    }
+}
+Tür (type): Bir değişken için bellekte kaç byte yer ayrılacağını ve içerisindeki değerin hangi formatta
+	tutulacağını belirten kavrama denir.
+
+	Temel Türler (built-in type, predefined type)
+
+	Tür ismi				Uzunluğu (byte)
+	short						2
+   *int							4
+	long						8
+	byte						1
+	float						4
+   *double						8
+	boolean                     1
+	char						2
+
