@@ -1,0 +1,318 @@
+
+ODEV 1
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf Çalışması: Parametresi ile aldığı int türden bir sayının basamak sayısını döndüren getDigitsCount isimli
+	metodu NumberUtil isimli bir sınıfın içerisinde yazınız ve klavyeden alınan değerlerle çağırarak test ediniz
+
+	123 -> 12 -> 1 -> 0
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+ODEV 2
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf Çalışması: Parametresi ile aldığı int türden bir sayının tersini döndüren getReverse isimli metodu
+	yazınız ve test ediniz. Örneğin -123 sayısı için metot -321 sayısını döndürecektir
+	123 -> 3 -> 3 * 10 + 2 = 32 -> 32 * 10 + 1 = 321
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+ODEV 3
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf Çalışması: Parametresi ile aldığı int türden a ve b değerleri için a'nın b-inci kuvvetini döndüren
+	pow isimli metodu yazınız.
+	Açıklamalar:
+	- Math sınıfının pow metodu kullanılmayacaktır
+	- Metot b nin negatif değerleri için 1 değerini döndürecektir
+	- Metot NumberUtil sınıfı içerisinde yazılacaktır
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV 4
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf Çalışması: Parametresi ile aldığı int türden bir sayının Armstrong sayısı olup olmadığını test eden
+	isArmstrong metodunu yazınız ve test ediniz.
+	Açıklamalar:
+	- Bir sayının her basamağının basamak sayıncı kuvvetleri toplamı sayının kendisine eşitse bu sayıya Armstrong
+	sayısı denir
+	153 -> 1 + 125 + 27 = 153
+	- Sayı negatif ise false döndürebilirsiniz
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV5
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf Çalışması: Parametresi ile aldığı int türden bir sayının faktoriyelini döndüren factorial isimli
+	metodu yazınız ve test ediniz.
+	Açıklamalar:
+	- Metot negatif sayılar için -1 değerini döndürecektir
+	- Faktoriyel tanımı:
+		0!= 1
+		1!=1
+		2!=1*2
+		...
+		n!=1 * 2 * ...* (n - 1) * n
+	- Sınır taşması gözardı edilecektir
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV6
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf çalışması: Parametresi ile aldığı int türden bir yıl değerine göre yılın artık yıl olup olmadığını
+	test eden isLeapYear isimli metodu yazınız ve test ediniz
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV7
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf çalışması: Parametresi ile aldığı int türden gün, ay ve yıl bilgilerine ilişkin tarihin geçerli bir
+	tarih olup olmadığını test eden isValidDate isimli metodu yazınız ve test ediniz
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV8
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf çalışması: Parametresi ile aldığı int türden gün, ay ve yıl bilgilerine ilişkin tarihin yılın kaçıncı
+	günü olduğunu döndüren getDayOfYear isimli metodu yazınız ve test ediniz. Metot geçersiz bir tarih için
+	-1 değerini döndürecektir
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV 9
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf çalışması: Parametresi ile aldığı int türden gün, ay ve yıl bilgilerine ilişkin tarihin aşağıdaki
+	açıklamalara göre haftanın hangi gününe geldiğini döndüren getDayOfWeek metodunu yazınız.
+	Açıklamalar:
+		- Metot geçersiz bir tarih için -1 değerini döndürecektir.
+		- Haftanın günü 1.1.1900 ile verilen tarih arasındaki gün sayısının 7 değerine modu alınarak bulunabilir
+		- 7 değerine mod alındıktan sonra sıfır Pazar, 1 pazartesi, .., 6 cumartesi günü için
+		elde edilecek değerdir
+		- 1.1.1900' den önceki tarihler geçersiz kabul edilecektir
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV 10
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf Çalışması: Klavyeden bir kullanıcı adı ve şifre isteyen basit ATM uygulamasının bir parçasını aşağıdaki
+	açıklamalara göre yazınız:
+	Açıklamalar:
+	- Kullanıcı adı ve şifre 3 kez denenebilecektir
+	- 3 kez deneme sırasında doğru giriş yapılırsa "Giriş Başarılı", 3 kez deneme de yanlış olursa
+	"Giriş Başarısız. Deneme hakkınız bitti" mesajı verilecektir.
+	- Kullanıcı adı ve şifrenin doğruluğu program içerisinde belirlenen bir kullanıcı adı ve şifre ile yapılacacktır
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV 11
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf Çalışması: İki zar atıldığında zarların çift gelmesi (ikisi de aynı) olasılığını yaklaşık hesaplayan
+	basit simülasyon programını yazınız
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV 12
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf Çalışması: Klavyeden quit girilene kadar alınan yazıların arasında - karakteri olacak şekilde
+	birleştirilmiş bir String oluşturan programı yazınız.
+	Örnek:
+	ankara, istanbul, izmir girilirse
+	ankara-istanbul-izmir
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
