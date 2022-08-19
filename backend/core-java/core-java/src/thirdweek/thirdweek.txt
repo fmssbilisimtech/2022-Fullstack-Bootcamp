@@ -1,0 +1,61 @@
+
+
+
+
+
+ODEV 1
+/*----------------------------------------------------------------------------------------------------------------------
+	 Sınıf Çalışması: Parametresi ile aldığı bir yazının Türkçe pangram olup olmadığını test eden isPangramTR
+	 ve İngilizce pangram olup olmadığını test eden isPangramEN isimli metotları yazınız ve test ediniz.
+	 Pangram: İçerisinde özel isim bulunmayan anlamlı ve ilgili alfabenin tüm karakterlerini içeren cümlelere denir.
+	 Örnekler:
+	 İngilizce Pangram:
+	 	The quick brown fox jumps over the lazy dog
+	 Türkçe:
+	 	Pijamalı hasta yağız şoföre çabucak güvendi
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV 2
+/*----------------------------------------------------------------------------------------------------------------------
+	 Sınıf Çalışması: Parametresi ile aldığı bir yazının palindrom olup olmadığını test eden isPalindrome
+	 isimli metodu yazınız ve test ediniz
+	 Palindrom: Yalnızca alfabetik karakterleri tersten de okunduğunda aynı olan yazılara denir. Yani alfabetik
+	 dışı karakterler yok sayılır
+
+	 Örnek:
+	 ey edip Adana'da pide ye -> eyedipadanadapideye
+	 Anastas mum satsana -> anastasmumsatsana
+	 Ali Papila -> alipapila
+----------------------------------------------------------------------------------------------------------------------*/
