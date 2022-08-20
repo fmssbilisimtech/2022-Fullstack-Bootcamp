@@ -274,7 +274,6 @@ public class ForBreakLoop { }
 //    {
 //        for (int i = 0; i < 5; ) {
 //            System.out.printf("%d ", i);
-//            ++i;
 //        }
 //
 //        System.out.println();
@@ -480,7 +479,6 @@ public class ForBreakLoop { }
 
 
 /*----------------------------------------------------------------------------------------------------------------------
-	14.06.2020
 	Menülerle işlem yapılabilen basit bir iskelet program
 	(İleride daha iyisi yazılacaktır)
 ----------------------------------------------------------------------------------------------------------------------*/

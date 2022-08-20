@@ -103,7 +103,7 @@ public class Switch { }
 //                break;
 //            case 35:
 //                System.out.println("İzmir");
-//                break;
+//
 //        }
 //
 //        System.out.println("Tekrar yapıyor musunuz?");
@@ -147,12 +147,9 @@ public class Switch { }
 //        int plate = Integer.parseInt(kb.nextLine());
 //
 //        switch (plate) {
-//            default:
-//                System.out.println("Geçersiz plaka değeri");
-//                break;
 //            case 34:
 //                System.out.println("İstanbul");
-//                break;
+//
 //            case 6:
 //                System.out.println("Ankara");
 //                break;
