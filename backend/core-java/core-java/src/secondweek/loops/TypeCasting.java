@@ -154,10 +154,10 @@ public class TypeCasting { }
 //    {
 //        int val = 67;
 //        char c1 = 67;
-//        char c2 = 70000; //error
-//        char c3 = 67L; //error
-//        char c4 = val; //error
-//
+////        char c2 = 70000; //error
+////        char c3 = 67L; //error
+////        char c4 = val; //error
+//        System.out.println(c1);
 //    }
 //}
 
@@ -183,8 +183,8 @@ public class TypeCasting { }
 //        char a = 40000;
 //        short b;
 //
-//        b = a; //error
-//
+////        b = a; //error
+//        System.out.println(a);
 //    }
 //}
 
@@ -331,6 +331,7 @@ public class TypeCasting { }
 //        float b;
 //
 //        b = a;
+//        System.out.println(b);
 //    }
 //}
 

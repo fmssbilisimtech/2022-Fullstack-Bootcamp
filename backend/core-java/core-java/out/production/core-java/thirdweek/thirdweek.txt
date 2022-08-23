@@ -59,3 +59,107 @@ ODEV 2
 	 Anastas mum satsana -> anastasmumsatsana
 	 Ali Papila -> alipapila
 ----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV 3
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf çalışması: Parametresi ile aldığı int türden gün, ay ve yıl bilgilerine ilişkin tarihin aşağıdaki
+	açıklamalara göre haftanın hangi gününe geldiğini döndüren getDayOfWeek metodunu yazınız.
+	Açıklamalar:
+		- Metot geçersiz bir tarih için -1 değerini döndürecektir.
+		- Haftanın günü 1.1.1900 ile verilen tarih arasındaki gün sayısının 7 değerine modu alınarak bulunabilir
+		- 7 değerine mod alındıktan sonra sıfır Pazar, 1 pazartesi, .., 6 cumartesi günü için
+		elde edilecek değerdir
+		- 1.1.1900' den önceki tarihler geçersiz kabul edilecektir
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ODEV 4
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf çalışması: Klavyden int türden bir n sayısı isteyiniz. n elemanlı bir String dizisi yaratınız.
+	Bu dizinin her bir elemanını rasgele uzunlukta rasgele üretilmiş yazılarla doldurunuz. Bu işlemden sonra
+	dizinin elemanlarını aralarında - (tire) karakteri olacak şekilde birleştirip yeni bir String elde eden
+	programı yazınız
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
