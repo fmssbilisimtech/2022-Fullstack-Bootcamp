@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Css</title>
+</head>
+<body>
+    
+    <a href="https://www.google.com/" target="_blank" style="background-color: rgb(216, 132, 29); color: #82c4d8; text-decoration: none;">buton</a>
+
+    <div>Bu adrese gitmek icin lutfen yukaridaki linke tiklayiniz.</div>
+
+
+    <h1 style="color: red;">Bu inline style ile kirmizi renk verilmis bir basliktir.</h1>
+
+    <marquee id="marquee" behavior="scroll" direction="right" style="color: #13255f;">Burada inline css sadece verilen etiketi etkiler. Her etiket icin tek tek style vermek gerekir.</marquee>
+
+    <button id="stop-button" onClick="stopSlide()">stop</button>
+    <button id="stop-button" onClick="startSlide()">start</button>
+
+    <script>
+        function stopSlide(){
+            document.getElementById("marquee").stop();
+        };
+
+        function startSlide(){
+            document.getElementById("marquee").start();
+        };
+        
+        
+    </script>
+</body>
+</html>

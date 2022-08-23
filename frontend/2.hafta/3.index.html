@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Css</title>
+
+<style>
+
+    img{
+        width: 400px; 
+    } 
+
+    #first-image > img{
+        width: 300px;
+    }
+
+
+    .second-image > img{
+        width: 500px !important;
+    }
+    
+    #second-image > img{   /* Burada en alta yazilan css gecerlidir ve ustte yazilani herzaman ezer */
+        width: 100px;
+    }
+
+
+    
+
+</style>
+
+</head>
+<body>
+    
+<span id="first-image">
+<img style="width:100px" src="/frontend/2.hafta/resim.jpeg" alt="resim istanbul">
+</span>
+<span id="second-image">
+<img style="width:100px !important" src="/frontend/1.Hafta/00-images/galata-kulesi.jpeg" alt="resim istanbul">
+</span>
+</body>
+</html>

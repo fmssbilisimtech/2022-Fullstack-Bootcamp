@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+<style>
+
+
+.a-1{
+  border-width: 1px;  
+  border-color: brown;
+  border-style: solid;
+
+}
+.a-2{
+    border-width: 2px;  
+    border-color: blueviolet;
+    border-style: dashed;
+}
+.a-3{
+    border-width: 3px;  
+    border-color: coral;
+    border-style: groove;
+}
+.a-4{
+    border-width: 3px;  
+    border-color: coral;
+    border-style:outset;
+}
+
+.a-5{
+    border: 5px outset red;  /* burada ayni background ile benzer bir yontem tek satir kullanilabilir.*/
+}
+
+.tag-wrapper > a{
+   margin: 10px 0 10px 0px;
+}
+
+
+/* Border-Radius */
+
+.kutu{
+    background:  rebeccapurple;
+    width: 80px;
+    height:50px;
+    margin-top: 40px;
+    border-radius: 20px 1px 20px 1px;
+}
+
+.kutu-1{
+    border-radius: 20px 1px 20px 1px;
+    width: 80px;
+    height:40px;
+    transform: rotate(60deg);
+    background:  rgb(211, 202, 21);
+}
+
+.kutu-2{
+    border-radius: 20px 1px 20px 1px;
+    width: 80px;
+    height:40px;
+    transform: rotate(60deg);
+    background:  rgb(51, 104, 153);
+}
+
+
+.buttons{
+margin-top: 40px;
+display: flex;
+margin-top: 30px;
+}
+
+.buttons > a{
+ text-decoration: none;
+ background-color: rgb(110, 110, 20);
+ color: coral;
+ display:inline-block;
+ /* margin: 0px !important; */
+ padding: 0px !important;
+ width: 80px;
+ height: 20px;
+}
+
+.buttons > a:hover{
+ border-bottom: 2px solid coral;
+ margin-top: -1px;
+}
+
+
+
+</style>
+
+</head>
+<body>
+    
+
+    <div class="tag-wrapper">
+        <a class="a-1" href="#">Tikla-1</a>
+        <a class="a-2" href="#">Tikla-2</a>
+        <a class="a-3" href="#">Tikla-3</a>
+        <a class="a-4" href="#">Tikla-4</a>
+        <a class="a-5" href="#">Tikla-5</a>
+    </div>
+    <div class="kutu"></div>
+    <div class="kutu-1"></div>
+    <div class="kutu-2"></div>
+
+    <div class="buttons">
+        <a href="#" class="kutu-4">Anasayfa</a>
+        <a href="#" class="kutu-5">Hakkimizda</a>
+        <a href="#" class="kutu-6">Iletisim</a>
+    </div>
+
+
+    <a href="javascript:void()"> tikla</a>
+</body>
+</html>

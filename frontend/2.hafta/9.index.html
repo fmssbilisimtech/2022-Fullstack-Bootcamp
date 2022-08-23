@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth-child</title>
+
+    <style>
+        body{
+            display: flex;
+            text-align: center;
+            
+        }
+        .kutu{
+            width: 40px;
+            height: 40px;
+            background-color: bisque;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* .kutu:nth-child(1){
+            background-color: red;
+        }
+
+        .kutu:nth-child(5){
+            background-color: red;
+        } */
+
+        /* .kutu:nth-child(2n){
+            background-color: red;
+        } */
+
+        /* .kutu:nth-child(2n+1){
+            background-color: red;
+        } */
+
+        /* .kutu:nth-child(7n){
+            background-color: red;
+        } */
+
+        /* .kutu:nth-child(2n+5){
+            background-color: red;
+        } */
+
+        /* .kutu:nth-child(2n-7){
+            background-color: red;
+        } */
+
+        /* .kutu:nth-child(3n){
+            background-color: red;
+        } */
+
+
+        @media (max-width: 400px){
+
+        body{
+            flex-direction: column;
+        }
+
+        .kutu{
+            width: 100px;
+            background-color: brown;
+        }
+
+        }
+
+        button::after{
+            content: "\003C";
+        }
+
+        button::before{
+            content: "\203A";
+        }
+
+
+        /* .kutu:not(.kutu1){
+            background-color: black !important;
+        } */
+        /* bazi taglerin etkilenmesini istemedigimiz durumlarda kullanabiliriz */
+
+        /* https://unicode-table.com/en/html-entities/ */
+    </style>
+</head>
+<body>
+    
+    <div class="kutu kutu1">1</div>
+    <div class="kutu kutu2">2</div>
+    <div class="kutu kutu3">3</div>
+    <div class="kutu kutu4">4</div>
+    <div class="kutu kutu5">5</div>
+    <div class="kutu kutu6">6</div>
+    <div class="kutu kutu7">7</div>
+    <div class="kutu kutu8">8</div>
+    <div class="kutu kutu9">9</div>
+    <div class="kutu kutu10">10</div>
+
+    <button>Next</button>
+</body>
+</html>
