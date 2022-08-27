@@ -179,6 +179,47 @@ public class FinalKeyword { }
 
 
 
+/*----------------------------------------------------------------------------------------------------------------------
+	Bir referansın final olması o referansa atama yapılamayacağı anlamına gelir. Referansın gösterdiği nesnenin
+	veri elemanlarının değiştirilip değiştirilemeyecği sınıfın yazımına bağlıdır
+----------------------------------------------------------------------------------------------------------------------*/
+
+//class App {
+//    public static void main(String [] args)
+//    {
+//        final Sample s = new Sample();
+//
+//        s.a = 10;
+//
+//        s = new Sample(); //error
+//    }
+//}
+//
+//class Sample {
+//    public int a;
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
