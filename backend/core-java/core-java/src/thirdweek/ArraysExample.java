@@ -1,10 +1,13 @@
-package secondweek.loops;
+package thirdweek;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
 public class ArraysExample { }
+
+// Sorting video
+// https://www.youtube.com/watch?v=EdIKIf9mHk0&list=PLOmdoKois7_FK-ySGwHBkltzB11snW7KQ
 
 /*----------------------------------------------------------------------------------------------------------------------
 	Veri yapısı: Verileri belirli bir algoritmaya göre tutan ve istenilğidinde bu verilere erişilebilen

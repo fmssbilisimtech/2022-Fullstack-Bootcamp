@@ -142,6 +142,22 @@ ODEV 4
 
 
 
+/*----------------------------------------------------------------------------------------------------------------------
+	Sınıf çalışması: Klavyeden aşağıdaki formatta girilen bilgiyi ayrıştırarak ekrana yazdıran programı yazınız.
+	Not: Geçerlilik kontrolü yapılmayacaktır.
+
+	<isim>:<gg/aa/yyyy>:<ders adı>:<vize>:<final>
+	Oğuz karan:10/09/1976:Matematik:90:100
+
+	Bu formatta kişinin vize final notlarına vize * %40 + final * %60 formulüne göre geçme notunu hesaplayan ve doğum
+	tarihinin hangi güne geldiğini yazdıran programı yazınız
+
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
 
 
 
