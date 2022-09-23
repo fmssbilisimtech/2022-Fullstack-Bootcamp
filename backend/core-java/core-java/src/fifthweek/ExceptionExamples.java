@@ -1,11 +1,9 @@
 package fifthweek;
 
-import util.ArrayUtil;
-
 import java.util.Random;
 import java.util.Scanner;
 
-public class Exception { }
+public class ExceptionExamples { }
 /*----------------------------------------------------------------------------------------------------------------------
     Exception İşlemleri:
     Exception programlamada genel olarak çalışma zamanında oluşan hatalara denir. Ancak bazen bir exeception hata
@@ -408,7 +406,7 @@ public class Exception { }
 //
 //            System.out.printf("log(%f)=%f%n", val, result);
 //        }
-//        catch (MyException ex) {
+//        catch (Throwable ex) {
 //            System.out.println("My Excepion yakalandı");
 //        }
 //
@@ -784,8 +782,8 @@ public class Exception { }
 //        return Math.log(val);
 //    }
 //}
-//
-//
+
+
 //class MyException extends RuntimeException {
 //    //...
 //}
@@ -1213,6 +1211,8 @@ public class Exception { }
 //            throw ex;
 //        }
 //        finally {
+//            int a = 10;
+//            System.out.println(a);
 //            System.out.println("foo:finally");
 //        }
 //    }
@@ -2061,7 +2061,7 @@ public class Exception { }
     başka bir exception referansının tutulabilmesine olanak sağlar. getCause metodu ile içsel olarak tutulan referans
     elde edilebilir. Ayrıca Throwable sınıfının Throwble parametresi de alan ctor elemanı ile bu bilgi nesneye verilebilir
 ----------------------------------------------------------------------------------------------------------------------*/
-//
+
 //class App {
 //    public static void main(String [] args)
 //    {
@@ -2541,6 +2541,8 @@ public class Exception { }
 //        }
 //        catch (MyException ex) {
 //            System.out.println(ex.getMessage());
+//        } catch (YourException e) {
+//            throw new RuntimeException(e);
 //        }
 //        System.out.println("Tekrar yapıyor musunuz?");
 //    }
@@ -2840,7 +2842,7 @@ public class Exception { }
 //    }
 //}
 //
-//class B extends A {
+//class G extends A {
 //    public void foo()
 //    {
 //        //...
@@ -3005,7 +3007,7 @@ public class Exception { }
 //    }
 //}
 //
-//class B extends A {
+//class G extends A {
 //    public void foo()
 //    {
 //        try {
@@ -3219,7 +3221,7 @@ public class Exception { }
 //    {
 //        A x = new A();
 //
-//        B y = (B)x;
+//        G y = (G)x;
 //
 //        System.out.println("Tekrar yapıyor musunuz?");
 //    }
@@ -3229,7 +3231,7 @@ public class Exception { }
 //
 //}
 //
-//class B extends A {
+//class G extends A {
 //
 //}
 

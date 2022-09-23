@@ -88,23 +88,6 @@ public class Polymorphism2AfterAbstraction { }
     sanal metot public olarak override edilmek zorundadır
 ----------------------------------------------------------------------------------------------------------------------*/
 
-//class App {
-//    public static void main(String [] args)
-//    {
-//
-//    }
-//}
-//
-//class B extends A {
-//    protected void foo() //error
-//    {
-//
-//    }
-//}
-//
-//abstract class A {
-//    public abstract void foo();
-//}
 
 
 
@@ -220,7 +203,11 @@ public class Polymorphism2AfterAbstraction { }
 //        System.out.println("B.foo");
 //    }
 //}
-
+//
+//
+// abstract class A {
+//    public abstract void foo();
+//}
 
 
 
@@ -375,18 +362,26 @@ public class Polymorphism2AfterAbstraction { }
 //    {
 //        A.foo();
 //        B.foo();
+//        B.foo();
+//        B b = new B();
+//        B.a= 13;
+//        b.
 //    }
 //}
 //
 //class B extends A {
+//    public static int b = 22;
 //    public static void foo()
 //    {
+//
 //        System.out.println("B.foo");
 //    }
 //}
 //
 //class A {
-//    public static void foo()
+//    public static int a =10;
+//
+//    public static    void foo()
 //    {
 //        System.out.println("A.foo");
 //    }

@@ -4,11 +4,114 @@ package util;
 	StringUtil sınıfı
 ----------------------------------------------------------------------------------------------------------------------*/
 
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Random;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static java.lang.Character.*;
 
-public class StringUtil {
+public class StringUtil	{
+    private static final String ms_alphabetTR;
+    private static final String ms_alphabetEN;
+    private static final String ms_alphabetCapitalsTR;
+    private static final String ms_alphabetCapitalsEN;
+    private static final String ms_alphabetAllTR;
+    private static final String ms_alphabetAllEN;
+
+
+    static {
+        ms_alphabetTR = "abcçdefgğhıijklmnoöprsştuüvyz";
+        ms_alphabetEN = "abcdefghijklmnopqrstuwxvyz";
+        ms_alphabetCapitalsTR = "ABCÇDEFGĞJHIİJKLMNOÖPRSŞTUÜVYZ";
+        ms_alphabetCapitalsEN = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        ms_alphabetAllTR = ms_alphabetTR + ms_alphabetCapitalsTR;
+        ms_alphabetAllEN = ms_alphabetEN + ms_alphabetCapitalsEN;
+    }
+
+    private static void incrementCounts(HashMap<Character, Integer> charMap, String s)
+    {
+        int length = s.length();
+
+        for (int i = 0; i < length; ++i) {
+            char c = s.charAt(i);
+            int count = 1;
+
+            if (charMap.containsKey(c))
+                count = charMap.get(c) + 1;
+
+            charMap.put(c, count);
+        }
+    }
+
+    private static boolean decrementCounts(HashMap<Character, Integer> charMap, String s)
+    {
+        int length = s.length();
+
+        for (int i = 0; i < length; ++i) {
+            char c = s.charAt(i);
+
+            if (!charMap.containsKey(c))
+                return false;
+
+            int count = charMap.get(c) - 1;
+
+            if (count < 0)
+                return false;
+
+            charMap.put(c, count);
+        }
+
+        return true;
+    }
+
+    private StringUtil() {}
+
+    public static String addAllCharsWith(String s, int n)
+    {
+        StringBuilder sb = new StringBuilder(s);
+        int length = sb.length();
+
+        for (int i = 0; i < length; ++i) {
+            char ch = sb.charAt(i);
+            sb.setCharAt(i, (char)(ch + n));
+        }
+
+        return sb.toString();
+    }
+
+    public static boolean areAnagram(String s1, String s2)
+    {
+        if (s1.length() != s2.length())
+            return false;
+
+        HashMap<Character, Integer> charMap = new HashMap<>();
+
+        incrementCounts(charMap, s1);
+
+        if (!decrementCounts(charMap, s2))
+            return false;
+
+        for (int count : charMap.values())
+            if (count != 0)
+                return false;
+
+        return true;
+    }
+
+    public static boolean areCharactersDistinct(String str)
+    {
+        HashSet<Character> hashset = new HashSet<>();
+        int length =  str.length();
+
+        for (int i = 0; i < length; ++i)
+            if (!hashset.add(str.charAt(i)))
+                return false;
+
+        return true;
+    }
+
     public static String capitalize(String s)
     {
         if (s.isEmpty())
@@ -17,11 +120,28 @@ public class StringUtil {
         return toUpperCase(s.charAt(0)) + s.substring(1).toLowerCase();
     }
 
-    public static int countString(String s1, String s2)
+    public static String changeCase(String s)
+    {
+        StringBuilder sb = new StringBuilder(s);
+        int length = sb.length();
+
+        for (int i = 0; i < length; ++i) {
+            char ch = sb.charAt(i);
+
+            if (!Character.isLetter(ch))
+                continue;
+
+            sb.setCharAt(i, Character.isUpperCase(ch) ? Character.toLowerCase(ch) : Character.toUpperCase(ch));
+        }
+
+        return sb.toString();
+    }
+
+    public static int getCount(String s1, String s2)
     {
         int count = 0;
 
-        for (int i = -1; (i = s1.indexOf(s2, i + 1)) != -1; ++count)
+        for (int index = -1; (index = s1.indexOf(s2, index + 1)) != -1; ++count)
             ;
 
         return count;
@@ -29,211 +149,253 @@ public class StringUtil {
 
     public static String getLetters(String s)
     {
-        String str = "";
-        int length = s.length();
+        int len = s.length();
+        StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < length; ++i) {
-            char ch = s.charAt(i);
-
-            if (isLetter(ch))
-                str += ch;
+        for (int i = 0; i < len; ++i) {
+            char c = s.charAt(i);
+            if (isLetter(c))
+                sb.append(c);
         }
 
-        return str;
+        return sb.toString();
     }
 
-    public static String getLongestPalindrome(String s)
+    public static String getRandomText(Random r, int n, String sourceText)
     {
-        String text = "";
+        StringBuilder sb = new StringBuilder(n);
 
-        int endIndex = s.length();
+        for (int i = 0; i < n; ++i)
+            sb.append(sourceText.charAt(r.nextInt(sourceText.length())));
 
-        while (endIndex != 0) {
-            int beginIndex = 0;
-
-            while (beginIndex != endIndex) {
-                String str = s.substring(beginIndex++, endIndex);
-
-                if (str.length() > 1 && StringUtil.isPalindrome(str) && str.length() > text.length())
-                    text = str;
-            }
-
-            --endIndex;
-        }
-
-        return text;
-    }
-
-    public static String getRandomText(Random r, int n, String alphabet)
-    {
-        char [] c = new char[n];
-
-        for (int i = 0; i < n; ++i) {
-            char ch = alphabet.charAt(r.nextInt(alphabet.length()));
-
-            if (r.nextBoolean())
-                ch = toUpperCase(ch);
-
-            c[i] = ch;
-        }
-
-        return String.valueOf(c);
-    }
-
-    public static String getRandomTextEN(int n)
-    {
-        return getRandomTextEN(new Random(), n);
-    }
-
-    public static String getRandomTextEN(Random r, int n)
-    {
-        return getRandomText(r, n, "abcdefghijklmnopqrstuwxvyz");
+        return sb.toString();
     }
 
     public static String getRandomTextTR(int n)
     {
-        return getRandomTextTR(new Random(), n);
+        Random r = new Random();
+
+        return getRandomTextTR(r, n);
     }
 
     public static String getRandomTextTR(Random r, int n)
     {
-        return getRandomText(r, n, "abcçdefgğhıijklmnoöprsştuüvyz");
+        return getRandomText(r, n, ms_alphabetAllTR);
+    }
+
+    public static String [] getRandomTextsTR(Random r, int count, int min, int max)
+    {
+        return Stream.generate(() -> getRandomTextTR(r, r.nextInt(max - min + 1) + min))
+                .limit(count)
+                .collect(Collectors.toList())
+                .toArray(new String[count]);
+    }
+
+    public static String getRandomTextEN(Random r, int n)
+    {
+        return getRandomText(r, n, ms_alphabetAllEN);
+    }
+
+    public static String getRandomTextEN(int n)
+    {
+        Random r = new Random();
+
+        return getRandomTextEN(r, n);
+    }
+
+    public static String [] getRandomTextsEN(Random r, int count, int min, int max)
+    {
+        return Stream.generate(() -> getRandomTextEN(r, r.nextInt(max - min + 1) + min))
+                .limit(count)
+                .collect(Collectors.toList())
+                .toArray(new String[count]);
+    }
+
+    public static boolean isIsogram(String str, String alphabet)
+    {
+        int [] counts = new int[alphabet.length()];
+        int len = str.length();
+
+        for (int i = 0; i < len; ++i) {
+            char ch = Character.toLowerCase(str.charAt(i));
+
+            int index = alphabet.indexOf(ch);
+
+            if (index == -1)
+                continue;
+
+            ++counts[index];
+
+            if (counts[index] > 1)
+                return false;
+        }
+
+        for (int val : counts)
+            if (val == 0)
+                return false;
+
+        return true;
+    }
+    public static boolean isIsogramEN(String str)
+    {
+        int [] counts = new int[26];
+
+        int len = str.length();
+
+        for (int i = 0; i < len; ++i) {
+            char ch = Character.toLowerCase(str.charAt(i));
+
+            if (ch < 'a' || ch > 'z')
+                continue;
+
+            ++counts[ch - 'a'];
+
+            if (counts[ch - 'a'] > 1)
+                return false;
+        }
+
+        for (int val : counts)
+            if (val == 0)
+                return false;
+
+        return true;
+    }
+
+    public static boolean isIsogramTR(String str)
+    {
+        return isIsogram(str, ms_alphabetEN);
     }
 
     public static boolean isPalindrome(String s)
     {
-        int left = 0;
-        int right = s.length() - 1;
+        String str = getLetters(s);
 
-        while (left < right) {
-            char chLeft = toLowerCase(s.charAt(left));
+        if (str.isEmpty())
+            return false;
 
-            if (!isLetter(chLeft)) {
-                ++left;
-                continue;
-            }
+        int first = 0;
+        int last = str.length() - 1;
 
-            char chRight = toLowerCase(s.charAt(right));
-
-            if (!isLetter(chRight)) {
-                --right;
-                continue;
-            }
+        while (first < last) {
+            char chLeft = toLowerCase(str.charAt(first++));
+            char chRight = toLowerCase(str.charAt(last--));
 
             if (chLeft != chRight)
                 return false;
-
-            ++left;
-            --right;
         }
 
         return true;
     }
 
-    public static boolean isPangram(String text, String alphabet)
+    public static boolean isPangram(String str, String alphabet)
     {
-        int length = alphabet.length();
+        str = str.toLowerCase();
 
-        for (int i = 0; i < length; ++i)
-            if (!text.contains(alphabet.charAt(i) + ""))
+        int len = alphabet.length();
+
+        for (int i = 0; i < len; ++i) {
+            char c = alphabet.charAt(i);
+
+            if (!str.contains(c + ""))
                 return false;
+        }
 
         return true;
     }
 
-    public static boolean isPangramEN(String text)
+    public static boolean isPangramTR(String str)
     {
-        return isPangram(text.toLowerCase(), "abcdefghijklmnopqrstuwxvyz");
+        return isPangram(str, ms_alphabetEN);
     }
 
-    public static boolean isPangramTR(String text)
+    public static boolean isPangramFR(String str)
     {
-        return isPangram(text.toLowerCase(), "abcçdefgğhıijklmnoöprsştuüvyz");
+        return isPangram(str, ms_alphabetTR);
     }
 
-    public static String padLeft(String s, int length)
+    public static boolean isPangramEN(String str)
     {
-        return padLeft(s, length, ' ');
+        return isPangram(str, ms_alphabetTR);
     }
 
-    public static String padLeft(String s, int length, char ch)
+    public static String padLeft(String s, int len)
     {
-        length -= s.length();
+        return padLeft(s, len, ' ');
+    }
 
-        if (length <= 0)
+    public static String padLeft(String s, int len, char ch)
+    {
+        len -= s.length();
+
+        if (len <= 0)
             return s;
 
-        return repeat(length, ch) + s;
+        return (ch + "").repeat(len) + s;
     }
 
-    public static String padRight(String s, int length)
+    public static String padRight(String s, int len)
     {
-        return padRight(s, length, ' ');
+        return padRight(s, len, ' ');
     }
 
-    public static String padRight(String s, int length, char ch)
+    public static String padRight(String s, int len, char ch)
     {
-        length -= s.length();
+        len -= s.length();
 
-        if (length <= 0)
+        if (len <= 0)
             return s;
 
-        return s + repeat(length, ch);
+        return s + (ch + "").repeat(len);
     }
 
-    public static String removeWhitespaces(String s)
+
+    public static String reverse(String s)
     {
-        int length = s.length();
-        String str = "";
+        return new StringBuilder(s).reverse().toString();
+    }
+
+    public static String squeeze(String s1, String s2)
+    {
+        StringBuilder sb = new StringBuilder();
+        int length = s1.length();
 
         for (int i = 0; i < length; ++i) {
-            char ch = s.charAt(i);
+            char ch = s1.charAt(i);
 
-            if (!isWhitespace(ch))
-                str += ch;
+            if (s2.indexOf(ch) == -1)
+                sb.append(ch);
         }
 
-        return str;
+        return sb.toString();
     }
 
-    public static String repeat(int n, char ch)
+    public static String [] split(String str, String delim)
     {
-        char [] c = new char[n];
-
-        while (n-- > 0)
-            c[n] = ch;
-
-        return String.valueOf(c);
+        return split(str, delim, StringSplitOptions.NONE);
     }
 
-    public static String reverse(String str)
+    public static String [] split(String str, String delim, StringSplitOptions options)
     {
-        char [] c = str.toCharArray();
+        StringBuilder re = new StringBuilder("[");
+        String metas = "[]";
 
-        ArrayUtil.reverse(c);
+        for (int i = 0; i < delim.length(); ++i) {
+            char c = delim.charAt(i);
 
-        return String.valueOf(c);
+            re.append(metas.contains(c + "") ? "\\" : "").append(c);
+        }
+
+        re.append("]");
+
+        if (options == StringSplitOptions.REMOVE_EMPTY_ENTRIES)
+            re.append("+");
+
+        return str.split(re.toString());
     }
 
-    public static String trimLeft(String s)
+    public static String subtractAllCharsWith(String s, int n)
     {
-        int i;
-        int len = s.length();
-
-        for (i = 0; i < len && isWhitespace(s.charAt(i)); ++i)
-            ;
-
-        return s.substring(i);
-    }
-
-    public static String trimRight(String s)
-    {
-        int i;
-
-        for (i = s.length() - 1; i >= 0 && isWhitespace(s.charAt(i)); --i)
-            ;
-
-        return s.substring(0, i + 1);
+        return addAllCharsWith(s, -n);
     }
 }
 
