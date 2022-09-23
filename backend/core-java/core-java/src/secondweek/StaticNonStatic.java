@@ -309,21 +309,21 @@ public class StaticNonStatic { }
 	 bir farkı yoktur. Bu şekilde kodlar okunabilirlik açısından yazılmamalıdır
 ----------------------------------------------------------------------------------------------------------------------*/
 
-//class App {
-//    public static void main(String [] args)
-//    {
-//        Sample s = new Sample();
-//
-//        s.x = 10;
-//
-//        System.out.printf("Sample.x:%d%n", Sample.x);
-//    }
-//}
-//
-//class Sample {
-//    public static int x;
-//    //...
-//}
+class App {
+    public static void main(String [] args)
+    {
+        Sample s = new Sample();
+
+        s.x = 10;
+
+        System.out.printf("Sample.x:%d%n", Sample.x);
+    }
+}
+
+class Sample {
+    public static int x;
+    //...
+}
 
 
 

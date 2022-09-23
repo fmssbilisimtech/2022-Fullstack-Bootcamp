@@ -3,7 +3,6 @@ package fifthweek;
 import util.ArrayUtil;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Interface { }
 /*----------------------------------------------------------------------------------------------------------------------
@@ -278,6 +277,8 @@ public class Interface { }
 //    int applyAsInt(int a, int b);
 //}
 //
+
+
 //interface StringToIntConverter {
 //    int convert(String str);
 //}
@@ -708,7 +709,7 @@ public class Interface { }
 //    {
 //        Mample m = new Mample();
 //        Sample s = new Sample();
-//        Test t = new Test();
+//        TestT t = new TestT();
 //
 //        m.doWorkForIX(s);
 //        m.doWorkForIY(s);
@@ -728,14 +729,16 @@ public class Interface { }
 //    }
 //}
 //
-//class Test implements X {
+//class TestT implements X {
 //    public void foo()
 //    {
 //        System.out.println("Test.foo");
 //    }
 //}
 //
-//class Sample implements X, Y {
+// class Sample implements X, Y {
+//
+//
 //    public void foo()
 //    {
 //        System.out.println("Sample.foo");
@@ -1277,16 +1280,12 @@ public class Interface { }
 //        X x = a;
 //
 //        x.foo();
+//        a.foo();
 //
-//        x = new B();
-//
-//        x.foo();
 //    }
 //}
 //
-//class B implements X {
 //
-//}
 //
 //class A implements X {
 //    public void foo()
@@ -1334,7 +1333,7 @@ public class Interface { }
 //    public static void main(String [] args)
 //    {
 //        A a = new A();
-//        X x = a;
+//        X x = new A();
 //
 //        x.foo();
 //    }
@@ -1682,6 +1681,14 @@ public class Interface { }
 //        return y;
 //    }
 //}
+//
+//class TesTT {
+//    public Car getCar(Integer saseNo) {
+//
+//    }
+//}
+//
+//interface Car{}
 //
 //class Y extends X {
 //
