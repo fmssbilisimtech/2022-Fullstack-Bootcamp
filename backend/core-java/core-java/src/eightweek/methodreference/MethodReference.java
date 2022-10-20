@@ -1,10 +1,4 @@
-package seventhweek.methodreference;
-
-import util.Console;
-import util.NumberUtil;
-import util.StringUtil;
-
-import java.util.Random;
+package eightweek.methodreference;
 
 public class MethodReference { }
 
