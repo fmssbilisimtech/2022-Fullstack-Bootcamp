@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2. Hafta Css & Bootstrap</title>
+    <link rel="stylesheet" href="sytle.css">
+
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+       #kutu-1{
+           background-color: burlywood;
+           height: 80px;
+           text-align: center;
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+
+       }
+       #kutu-2{
+           background-color: aqua;
+           display: flex;
+           flex-direction: column;
+            flex: 1;
+           
+       }
+       #kutu-3{
+           background-color: chocolate;
+            display: flex;
+           flex-direction: column;
+           flex: 3;     
+           height: 700px; 
+
+       }
+       #kutu-4{
+           background-color: rebeccapurple;
+           display: inline-block;
+           width: 100%;
+           display: flex;
+           flex-direction: row;
+           height: 100px;
+       }
+
+       #navbar-items{
+           display: flex;
+           flex-direction: row;
+           justify-content: flex-end;
+           align-items: center;
+           flex: 9;
+       }
+
+       #navbar-brand{
+           display: flex;
+           flex-direction: row;
+           flex:2;
+           background-color:coral;
+           padding: 10px 10px 10px 0px; 
+           margin: 15px;
+           justify-content: center;
+           align-content: center;
+           text-decoration: none;
+           color: beige;
+           border-radius: 10px;
+
+       }
+
+       #navbar-items > a{
+        background-color:coral;
+            padding: 10px;
+           justify-content: center;
+           align-content: center;
+           text-decoration: none;
+           color: beige;
+           border-radius: 10px;
+       }
+
+       #navbar-items > a:hover{
+        background-color: azure;
+        color: rgb(186, 142, 62);
+       }
+
+       #navbar-brand:hover{
+        background-color: azure;
+        color: rgb(186, 142, 62);
+       }
+
+
+      
+       .wrapper{
+           display: flex;
+           flex-direction: row;
+       }
+
+
+    </style>
+
+</head>
+<body>
+    <section>
+    <nav class="kutu navbar" id="kutu-1">
+       <a href="#" id="navbar-brand">Anasayfa</a> 
+        <div id="navbar-items">
+             <a href="#">Hakkimizda</a> 
+             <a href="#">Setting</a> 
+             <a href="#">Profil</a> 
+        </div>      
+    </nav>
+   </section>
+
+    <section class="wrapper">
+        <sidebar class="kutu" id="kutu-2">Sidebar</sidebar>
+        <main href="#" class="kutu" id="kutu-3">Home</main>
+    </section>
+
+    <section>
+        <footer class="kutu" id="kutu-4">Footer</footer>
+    </section>
+</body>
+</html>

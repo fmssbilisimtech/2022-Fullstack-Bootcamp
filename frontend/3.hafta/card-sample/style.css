@@ -1,0 +1,47 @@
+.discount{
+    background-color: rgba(229, 120, 120, 0.5);
+    color: red;
+    border-radius: 5px;
+    
+}
+
+.trend{
+    background-color: rgb(149, 226, 137, 0.5);
+    color: rgb(82, 150, 104);
+    border-radius: 5px;
+    margin-right: 5px !important;
+}
+
+.addYellow{
+    color: yellow;
+}
+
+.langs > div{
+    background-color: rgba(211, 211, 211, 0.4);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.search-button{
+    width: 150px;
+}
+
+.product-photo > img{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+body{
+    background-color: #e4c5c5;    
+}
+
+.product-body{
+   border-radius: 0 10px 10px 0; 
+   background-color: rgb(238, 230, 230);
+}
+
+.product-photo{
+    border-radius: 10px 0 0 10px ;
+    background-color: lightgray;
+}

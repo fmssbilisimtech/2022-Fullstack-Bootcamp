@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important in Css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- https://cdnjs.com/libraries/font-awesome -->
+
+    <style>
+
+        .cake-container{
+            display: flex;
+            flex-direction: column;
+            display: inline;  /* inline ifadesi elementleri icerigi  kadar  alana sigdirir  */
+        }
+
+        .fa-cake:first-child{
+            font-size: 1rem;
+            background-color: #546786;
+        }
+
+        .fa-cake:nth-child(2n){
+            font-size: 2rem;
+            background-color: #123546;
+        }
+
+        .fa-cake:nth-child(3n){
+            font-size: 4rem;
+            background-color: #675678;
+        }
+        .fa-cake:last-child{
+            font-size: 5rem;
+            background-color: #345345 !important;   /* important ifadesi degistirilmesini istemedigimiz yerde kullanacagimiz bir aractir */
+        }
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <div class="cake-container">
+
+    <i class="fa fa-cake"></i>
+
+    <i class="fa fa-cake"></i>
+
+    <i class="fa fa-cake"></i>
+
+    <i class="fa fa-cake"></i>
+
+    <i class="fa fa-address-book"></i>
+
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,131 @@
+/* navbar start */
+
+.nav-wrapper{
+    background-color: #f79100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;  /*   google fontdan alindi   link kismina eklendi   */
+    flex-direction: column;
+}
+
+.navbar-brand::first-letter{
+    color: rgb(34, 128, 222);
+}
+
+.nav-items{
+    display:inline-flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.nav-items li{
+    list-style: none;
+}
+
+/* navbar end */
+
+
+
+/* section-1 start */
+
+.section-1{
+    margin-top: 30px;
+}
+
+.section-1 > article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 > article > img{
+    width: 900px;
+    height: 360px;
+}
+
+.section-1 > article > p{
+    width: 900px;
+}
+
+
+/* section-1 end */
+
+
+/* section-2 start */
+
+.sec2-article{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-around;
+
+}
+
+.sec2-article > .sec2-article-content> img{
+   width: 290px;
+   height: 180px;
+
+}
+
+.sec2-article > .sec2-article-content> p{
+    width: 290px;
+ }
+
+/* section-2 end */
+
+
+/* section-3 start */
+.section-3{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 30px;
+}
+
+.section-3 > img{
+    width: 450px;
+    height: 250px;
+}
+
+.section-3 > span{
+    width: 450px;
+   
+}
+
+/* section-3 end */
+
+
+
+/* footer start */
+
+img{
+    
+}
+
+footer{
+    background-color: #f79100;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.footer-container > .footer-group  > h3 {
+   text-align: center;
+
+} 
+.footer-container > .footer-group  > ul > li{
+    list-style: none;
+} 
+
+/* footer end */
