@@ -315,7 +315,7 @@ public class OptionalJava { }
 //
 //        for (int i = 0; i < n; ++i) {
 //            try {
-//                Optional<String> passwordOptional = RandomPasswordGenerator.getRandomPasswordIfSatisfied(r, r.nextBoolean());
+//                Optional<String> passwordOptional = RandomPasswordGenerator.getRandomPasswordIfSatisfied(r, false);
 //
 //                Console.writeLine("%s", passwordOptional.orElseThrow());
 //            }

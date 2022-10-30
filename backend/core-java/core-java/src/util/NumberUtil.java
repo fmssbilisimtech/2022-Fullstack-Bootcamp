@@ -1,18 +1,12 @@
-package util;
-
-
 /*----------------------------------------------------------------------------------------------------------------------
 	NumberUtil sınıfı
 ----------------------------------------------------------------------------------------------------------------------*/
-
-
-import static java.lang.Math.*;
-
+package util;
 
 import java.math.BigInteger;
 import java.util.Random;
 
-
+import static java.lang.Math.*;
 
 public final class NumberUtil {
     private static final String [] MS_ONES_TR;
@@ -21,6 +15,7 @@ public final class NumberUtil {
     private static final BigInteger FIVE = BigInteger.valueOf(5);
     private static final BigInteger SEVEN = BigInteger.valueOf(7);
     private static final BigInteger ELEVEN = BigInteger.valueOf(11);
+
 
     static {
         MS_ONES_TR = new String[] {"", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"};
@@ -40,7 +35,7 @@ public final class NumberUtil {
         return digits;
     }
 
-    private static int getPowSum(int val, int n)
+    private static int getSum(int val, int n)
     {
         int sum = 0;
 
@@ -92,9 +87,9 @@ public final class NumberUtil {
 
     public static BigInteger factorial(long n)
     {
-        BigInteger result = BigInteger.ONE;
+        var result = BigInteger.ONE;
 
-        for (long i = 2L; i <= n; ++i)
+        for (var i = 2L; i <= n; ++i)
             result = result.multiply(BigInteger.valueOf(i));
 
         return result;
@@ -178,6 +173,21 @@ public final class NumberUtil {
         }
 
         return numbers;
+    }
+
+    public static String getLetters(String s)
+    {
+        int len = s.length();
+        String str = "";
+
+        for (int i = 0; i < len; ++i) {
+            char c = s.charAt(i);
+
+            if (Character.isLetter(c))
+                str += c;
+        }
+
+        return str;
     }
 
     public static int getNextFibonacciNumber(int val)
@@ -273,7 +283,8 @@ public final class NumberUtil {
 
         int n = getDigitsCount(val);
 
-        return getPowSum(val, n) == val;
+
+        return getSum(val, n) == val;
     }
 
     public static boolean isEven(int val)
@@ -288,7 +299,7 @@ public final class NumberUtil {
 
     public static boolean isPalindrome(String s)
     {
-        String str = StringUtil.getLetters(s);
+        String str = getLetters(s);
 
         if (str.isEmpty())
             return false;
@@ -356,9 +367,9 @@ public final class NumberUtil {
         if (val.remainder(SEVEN).equals(BigInteger.ZERO))
             return val.equals(SEVEN);
 
-        BigInteger sqrt = val.sqrt();
+        var sqrt = val.sqrt();
 
-        for (BigInteger i = ELEVEN; i.compareTo(sqrt) <= 0; i = i.add(BigInteger.TWO))
+        for (var i = ELEVEN; i.compareTo(sqrt) <= 0; i = i.add(BigInteger.TWO))
             if (val.remainder(i).equals(BigInteger.ZERO))
                 return false;
 
@@ -397,3 +408,5 @@ public final class NumberUtil {
 
     }
 }
+
+
