@@ -1,0 +1,7 @@
+
+l	java:S116"RRename this field "m_plate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊëÛ†şÿÿÿÿ
+n	java:S116"YRename this field "m_passDateTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÈ’ê
+k
+java:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(¶’ùÿÿÿÿ
+i
+java:S6201"TReplace this instanceof check and cast with 'instanceof CarCameraInfo carcamerainfo'(õŸ 
