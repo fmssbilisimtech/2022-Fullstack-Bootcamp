@@ -1,0 +1,19 @@
+
+X
+java:S2094"BRemove this empty class, write its code or make it an "interface".(êşî
+]	java:S125"<This block of commented-out lines of code should be removed.(õ•‚øşÿÿÿÿ8¤ˆØğÁ0
+V	java:S125B"<This block of commented-out lines of code should be removed.(äŠµÁÿÿÿÿÿ
+V	java:S125g"<This block of commented-out lines of code should be removed.(äŠµÁÿÿÿÿÿ
+^	java:S125•"<This block of commented-out lines of code should be removed.(äŠµÁÿÿÿÿÿ8ÊçğÁ0
+^	java:S125Ö"<This block of commented-out lines of code should be removed.(äŠµÁÿÿÿÿÿ8ö®ÿğÁ0
+W	java:S125"<This block of commented-out lines of code should be removed.(ÒŸ„øÿÿÿÿ
+^	java:S125½"<This block of commented-out lines of code should be removed.(ÒŸ„øÿÿÿÿ8ı–ñÁ0
+R	java:S125…"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125½"<This block of commented-out lines of code should be removed.(´¶™
+Y	java:S125ğ"<This block of commented-out lines of code should be removed.(´¶™8€¶™ñÁ0
+Y	java:S125œ"<This block of commented-out lines of code should be removed.(´¶™8‡Ë ñÁ0
+R	java:S125Â"<This block of commented-out lines of code should be removed.(µ„µë
+W	java:S125ä"<This block of commented-out lines of code should be removed.(å ëØıÿÿÿÿ
+Y	java:S125œ"<This block of commented-out lines of code should be removed.(´¶™8Ó‰¦ñÁ0
+F
+java:S1128")Remove this unused import 'util.Console'.(¨¶ûë8ˆË ñÁ0
