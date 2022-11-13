@@ -4,7 +4,7 @@ import data.factory.*;
 import data.people.MaritalStatus;
 import data.people.Person;
 import data.product.ProductConverter;
-import data.product.ProductInfo;
+
 import util.*;
 import util.Console;
 

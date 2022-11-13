@@ -1,0 +1,11 @@
+
+e	java:S116"PRename this field "m_min" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ØŠˆ
+e	java:S116"PRename this field "m_max" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ˆ½Ä
+u	java:S116"`Rename this field "m_doubleUnaryOperator" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¤¹à
+h	java:S116-"SRename this field "m_curVal" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢µ°â
+d
+java:S22726"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(¡¯åù
+R
+java:S1172E"7Remove these unused method parameters "s1", "s2", "s3".(˜§ûıûÿÿÿÿ
+[
+java:S1128"@Remove this unused import 'java.util.function.IntUnaryOperator'.(õö°ÿÿÿÿÿ

@@ -1,0 +1,11 @@
+
+p	java:S116"ORename this field "m_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÒÌƒøÿÿÿÿ8±»½ÁÄ0
+r	java:S116"QRename this field "m_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üˆİ›ûÿÿÿÿ8±»½ÁÄ0
+n	java:S116"RRename this field "m_stock" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶§ÿâ8±»½ÁÄ0
+m	java:S116	"QRename this field "m_cost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó×8±»½ÁÄ0
+n	java:S116
+"RRename this field "m_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÛù”8±»½ÁÄ0
+u
+java:S2975m"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¯ÔÚ“ùÿÿÿÿ8¶»½ÁÄ0
+j
+java:S1182m"HUse super.clone() to create and seed the cloned instance to be returned.(¯ÔÚ“ùÿÿÿÿ8¶»½ÁÄ0
