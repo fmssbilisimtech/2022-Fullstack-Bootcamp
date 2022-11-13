@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media-query</title>
+
+    <style>
+        body{
+            display: flex;
+            text-align: center;
+            
+        }
+        .kutu{
+            width: 40px;
+            height: 40px;
+            background-color: bisque;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            box-shadow: -5px 12px 15px 2px rgba(0,0,0,0.3);
+            -webkit-box-shadow: -5px 12px 15px 2px rgba(0,0,0,0.3);
+            -moz-box-shadow: -5px 12px 15px 2px rgba(0,0,0,0.3);
+        }
+
+
+        /* https://cssgenerator.org/box-shadow-css-generator.html */
+
+
+
+        @media (max-width: 400px){
+
+        body{
+            flex-direction: column;
+
+        }
+
+        .kutu{
+            display: flex;
+            background-color: brown;
+            width: 100% !important;
+            color: antiquewhite;
+
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="kutu kutu1">1</div>
+    <div class="kutu kutu2">2</div>
+    <div class="kutu kutu3">3</div>
+    <div class="kutu kutu4">4</div>
+    <div class="kutu kutu5">5</div>
+    <div class="kutu kutu6">6</div>
+    <div class="kutu kutu7">7</div>
+    <div class="kutu kutu8">8</div>
+    <div class="kutu kutu9">9</div>
+    <div class="kutu kutu10">10</div>
+</body>
+</html>
