@@ -1,0 +1,88 @@
+
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(þ“öŸúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(´¶™
+Q	java:S125^"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¯"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125ä"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¶"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125á"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125˜"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ì"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125‚"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¸"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125ë"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125£"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Œ"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ë"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125‚"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125»"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125õ"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125©"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125â"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¥	"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ô	"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125‰
+"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ô
+"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125…"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125µ"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125ã"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125™"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ì"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125‚"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125È"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¹"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125é"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125†"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125·"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125æ"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125•"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ñ"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Œ"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125‡"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ä"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ü"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125‘"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Å"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125û"<This block of commented-out lines of code should be removed.(´¶™
+W	java:S125´"<This block of commented-out lines of code should be removed.(«ìË üÿÿÿÿ
+R	java:S125ý"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Å"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Š"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¼"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125ê"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¨"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¼"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125€"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125ã"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ó"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125É"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125"<This block of commented-out lines of code should be removed.(´¶™
+Y	java:S125¹"<This block of commented-out lines of code should be removed.(´¶™8èæîÁÄ0
+Y	java:S125ô"<This block of commented-out lines of code should be removed.(´¶™8’ŽöÁÄ0
+Y	java:S125¤"<This block of commented-out lines of code should be removed.(´¶™8â¨úÁÄ0
+X
+java:S1128"6Remove this unused import 'data.camera.CarCameraInfo'.(´„š¯ÿÿÿÿÿ8èæîÁÄ0
+Z
+java:S1128"8Remove this unused import 'data.factory.ProductFactory'.(„Ð¸×þÿÿÿÿ8éæîÁÄ0
+C
+java:S1128"!Remove this unused import 'util'.(©Úüþÿÿÿÿ8ä¨úÁÄ0
+\
+java:S1128":Remove this unused import 'util.collection.FmssArrayList'.(Þ£Œÿÿÿÿÿ8éæîÁÄ0
+X
+java:S1128"6Remove this unused import 'util.collection.FmssStack'.(ô± ¿ÿÿÿÿÿ8éæîÁÄ0
+T
+java:S1128	"7Remove this unused import 'util.collection.FmssVector'.(¡ÿ±¥8éæîÁÄ0
+N
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ8éæîÁÄ0
+N
+java:S1128"1Remove this unused import 'java.math.BigInteger'.(»Çâ€8éæîÁÄ0
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8”ŽöÁÄ0

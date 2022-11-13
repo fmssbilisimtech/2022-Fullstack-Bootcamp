@@ -1,0 +1,12 @@
+
+a
+java:S2184Œ"ECast one of the operands of this subtraction operation to a "double".(ÿÝÚ²ýÿÿÿÿ
+[
+java:S3400"9Remove this method and declare a constant for this value.(Ö§”Óþÿÿÿÿ8õë«ÂÂ0
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(²Áß·ýÿÿÿÿ
+C
+java:S1905Œ"'Remove this unnecessary cast to "long".(ÿÝÚ²ýÿÿÿÿ
+5
+java:S2119‘"Save and re-use this "Random".(¡Å”¦
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

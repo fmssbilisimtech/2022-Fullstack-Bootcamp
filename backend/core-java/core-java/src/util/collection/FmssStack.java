@@ -3,6 +3,7 @@ package util.collection;
 
 import java.util.ArrayList;
 import java.util.EmptyStackException;
+import java.util.Stack;
 
 public class FmssStack<E> extends ArrayList<E> {
     public boolean empty()

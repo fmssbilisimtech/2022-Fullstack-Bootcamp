@@ -1,0 +1,118 @@
+
+X
+java:S2094"BRemove this empty class, write its code or make it an "interface".(¯ÌÏÖ
+Q	java:S1259"<This block of commented-out lines of code should be removed.(´¶™
+Q	java:S125u"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¨"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ó"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125‰"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125µ"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125ê"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125•"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ñ"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125„"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125²"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ú"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125•"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125Ë"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125‚"<This block of commented-out lines of code should be removed.(´¶™
+R	java:S125¿"<This block of commented-out lines of code should be removed.(´¶™
+Y	java:S125ø"<This block of commented-out lines of code should be removed.(´¶™8‡½ÃÊÂ0
+Y	java:S125°"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125ë"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125¤"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125à"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125§	"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125è	"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125§
+"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125ë
+"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125Ÿ"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125Õ"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125‡"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125Á"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125€"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125½"<This block of commented-out lines of code should be removed.(´¶™8ƒ«ÔÊÂ0
+Y	java:S125ñ"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125©"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125Ô"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125þ"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125¨"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125Ò"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125¥"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125Ö"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125‡"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125»"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125ë"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125š"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125Ï"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125ü"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125º"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125ì"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125Ÿ"<This block of commented-out lines of code should be removed.(´¶™8„«ÔÊÂ0
+Y	java:S125Ò"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125Ú"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125•"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125Í"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125Ž"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125¶"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125ð"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125¥"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125Ý"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125™"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125Ö"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125’"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125Ã"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125õ"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125¥"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125×"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125‰"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125¹"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125ñ"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125®"<This block of commented-out lines of code should be removed.(´¶™8…«ÔÊÂ0
+Y	java:S125ä"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125œ"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125Ò"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125ˆ"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125½"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125õ"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125¬ "<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125à "<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125–!"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125Ï!"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125‰""<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125Æ""<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125œ#"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125Ñ#"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125…$"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125º$"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125ô$"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125®%"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+Y	java:S125ç%"<This block of commented-out lines of code should be removed.(´¶™8†«ÔÊÂ0
+F
+java:S1128")Remove this unused import 'data.factory'.(êô¼î8é¥°Å0
+X
+java:S1128"6Remove this unused import 'data.people.MaritalStatus'.(üÈ‘¦úÿÿÿÿ8é¥°Å0
+Q
+java:S1128"/Remove this unused import 'data.people.Person'.(…Ð¨°úÿÿÿÿ8‘é¥°Å0
+\
+java:S1128":Remove this unused import 'data.product.ProductConverter'.(‡Ëð˜ýÿÿÿÿ8‘é¥°Å0
+C
+java:S1128"!Remove this unused import 'util'.(©Úüþÿÿÿÿ8‘é¥°Å0
+F
+java:S1128	")Remove this unused import 'util.Console'.(¨¶ûë8‘é¥°Å0
+@
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD8‘é¥°Å0
+N
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ8‘é¥°Å0
+N
+java:S1128"1Remove this unused import 'java.math.BigInteger'.(»Çâ€8‘é¥°Å0
+[
+java:S1128">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ÞÛ8’é¥°Å0
+L
+java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂ8’é¥°Å0
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8’é¥°Å0
+O
+java:S1128"-Remove this unused import 'java.util.stream'.(§æÐçøÿÿÿÿ8’é¥°Å0
